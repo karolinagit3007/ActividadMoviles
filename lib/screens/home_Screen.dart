@@ -61,9 +61,9 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 60),
-                // Botón de acción centralizado
                 ElevatedButton(
                   onPressed: () {
+                    print("Comenzar");
                     
                   },
                   style: ElevatedButton.styleFrom(
